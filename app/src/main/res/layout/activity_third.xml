@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Left 50% Button -->
+    <Button
+        android:id="@+id/button_left_50"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/button_right_50"
+        android:layout_marginEnd="8dp"
+        android:text="Left 50%" />
+
+    <!-- Right 50% Button -->
+    <Button
+        android:id="@+id/button_right_50"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:text="Right 50%" />
+
+    <!-- Center Left Button -->
+    <Button
+        android:id="@+id/button_center_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_left_50"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="16dp"
+        android:text="Center Left" />
+
+    <!-- Center Button -->
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_left_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Center" />
+
+    <!-- Center Right Button -->
+    <Button
+        android:id="@+id/button_center_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_right_50"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="16dp"
+        android:text="Center Right" />
+
+    <!-- Bottom Button -->
+    <Button
+        android:id="@+id/button_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Bottom" />
+
+</RelativeLayout>
